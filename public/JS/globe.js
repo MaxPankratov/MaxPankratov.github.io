@@ -1,4 +1,4 @@
-import * as THREE from '../three//build/three.module.js';
+import * as THREE from '../three/build/three.module.js';
 import { OrbitControls } from '../three/examples//jsm/controls/OrbitControls.js';
 
 // DATA IMPORT
