@@ -1,0 +1,1162 @@
+[
+    {
+        "Country":"Afghanistan",
+        "Languages":"Pashto, Dari",
+        "latitude":33.93911,
+        "longitude":67.709953,
+        "Region":"ASIA (EX. NEAR EAST)",
+        "Population":31056997,
+        "Area_sq_mi":647500,
+        "id":"1138958 1135689 1141269 1147288 1141857 1133453 1137168 1136575 1123004 1145352 1127106 1120985"
+    },
+    {
+        "Country":"Algeria",
+        "Languages":"Arabic, Tamazight",
+        "latitude":28.033886,
+        "longitude":1.659626,
+        "Region":"NORTHERN AFRICA",
+        "Population":32930091,
+        "Area_sq_mi":2381740,
+        "id":"2507480 2485920 2501152 2506994 2503769 2505572 2500017 2481700 2481007 2503826 2477461 2497406 2479536"
+    },
+    {
+        "Country":"Angola",
+        "Languages":"Portuguese",
+        "latitude":-11.202692,
+        "longitude":17.873887,
+        "Region":"SUB-SAHARAN AFRICA",
+        "Population":12127071,
+        "Area_sq_mi":1246700,
+        "id":"2240449 3348310 3347939 3351660 3348078 3347762 2239861 3347019 2236967 2243266 145531 3346015"
+    },
+    {
+        "Country":"Argentina",
+        "Languages":"Spanish ",
+        "latitude":-38.416097,
+        "longitude":-63.616672,
+        "Region":"LATIN AMER. & CARIB",
+        "Population":39921833,
+        "Area_sq_mi":2766890,
+        "id":"3435907 3860443 3848950 3837702 8015350 3435261 3427833 3837856 3836669 3841490 7116866 3840092"
+    },
+    {
+        "Country":"Australia",
+        "Languages":"English ",
+        "latitude":-25.274398,
+        "longitude":133.775136,
+        "Region":"OCEANIA",
+        "Population":20264082,
+        "Area_sq_mi":7686850,
+        "id":"2147714 2158177 2174003 2063523 2078025 2165087 2172517 2155472 7839353 7839394 2171507 2163355"
+    },
+    {
+        "Country":"Austria",
+        "Languages":"German",
+        "latitude":47.516231,
+        "longitude":14.550072,
+        "Region":"WESTERN EUROPE",
+        "Population":8192880,
+        "Area_sq_mi":83870,
+        "id":"2761369 2778067 2772400 2766823 2775220 2774321 2762372 2761524 2766429 2780741 2761353 2764359"
+    },
+    {
+        "Country":"Azerbaijan",
+        "Languages":"Azerbaijani",
+        "latitude":40.143105,
+        "longitude":47.576927,
+        "Region":"C.W. OF IND. STATES",
+        "Population":7961619,
+        "Area_sq_mi":86600,
+        "id":"587084 586523 828305 147622 585514 147429 585170 584649 146970 587078 585915"
+    },
+    {
+        "Country":"Belarus",
+        "Languages":"Belarusian, Russian",
+        "latitude":53.709807,
+        "longitude":27.953389,
+        "Region":"C.W. OF IND. STATES",
+        "Population":10293011,
+        "Area_sq_mi":207600,
+        "id":"625144 625665 620127 627904 629634 630468 630428 630376 623549 624079 624400 625324 625550 622428"
+    },
+    {
+        "Country":"Belgium",
+        "Languages":"Dutch, French, German",
+        "latitude":50.503887,
+        "longitude":4.469936,
+        "Region":"WESTERN EUROPE",
+        "Population":10379067,
+        "Area_sq_mi":30528,
+        "id":"2800866 2800481 2792413 2790471 2792482 2791019 2790869 2795011 2791537 2803448 2793508"
+    },
+    {
+        "Country":"Bolivia",
+        "Languages":"Castilian, ",
+        "latitude":-16.290154,
+        "longitude":-63.588653,
+        "Region":"LATIN AMER. & CARIB",
+        "Population":8989046,
+        "Area_sq_mi":1098580,
+        "id":"3904906 3911925 3919968 3909234 3903987 3903320 3907584 3906194 3906791 3910027 3902377 3901301 3906466"
+    },
+    {
+        "Country":"Bosnia & Herzegovina",
+        "Languages":"Bosnian ",
+        "latitude":43.915886,
+        "longitude":17.679076,
+        "Region":"EASTERN EUROPE",
+        "Population":4498976,
+        "Area_sq_mi":51129,
+        "id":"3191281 3204541 3188582 3186573 3204186 3194828 3192409 3203521 3201984 3202822 3186246 3186422"
+    },
+    {
+        "Country":"Botswana",
+        "Languages":"English, Tswana",
+        "latitude":-22.328474,
+        "longitude":24.684866,
+        "Region":"SUB-SAHARAN AFRICA",
+        "Population":1639833,
+        "Area_sq_mi":600370,
+        "id":"933773 933778 933305 933099 933366 933088 933685 933471 933331 933340 933521 933182 933141"
+    },
+    {
+        "Country":"Brazil",
+        "Languages":"Portuguese",
+        "latitude":-14.235004,
+        "longitude":-51.92528,
+        "Region":"LATIN AMER. & CARIB",
+        "Population":188078227,
+        "Area_sq_mi":8511965,
+        "id":"3448433 3451189 3410315 3450554 3399415 3405814 3663517 3464975 3390760 3462377 3405863 3452925 3461786 3467865 3388368"
+    },
+    {
+        "Country":"Bulgaria",
+        "Languages":"Bulgarian",
+        "latitude":42.733883,
+        "longitude":25.48583,
+        "Region":"EASTERN EUROPE",
+        "Population":7385367,
+        "Area_sq_mi":110910,
+        "id":"727011 728193 726050 732770 727523 726848 728203 727079 726418 727233 728330 730435 725578"
+    },
+    {
+        "Country":"Burkina Faso",
+        "Languages":"French",
+        "latitude":12.238333,
+        "longitude":-1.561593,
+        "Region":"SUB-SAHARAN AFRICA",
+        "Population":13902972,
+        "Area_sq_mi":274200,
+        "id":"2357048 2362344 2358946 2357043 2362909 2359608 2361082 2354675 2360886 2359227 2360615 2357163"
+    },
+    {
+        "Country":"Cambodia",
+        "Languages":"Khmer",
+        "latitude":12.565679,
+        "longitude":104.990963,
+        "Region":"ASIA (EX. NEAR EAST)",
+        "Population":13881427,
+        "Area_sq_mi":181040,
+        "id":"1821306 1821939 1831142 1821310 1822213 1830194 1831166 1831172 1821301 1821935 1831132"
+    },
+    {
+        "Country":"Cameroon",
+        "Languages":"English, French",
+        "latitude":7.369722,
+        "longitude":12.354722,
+        "Region":"SUB-SAHARAN AFRICA",
+        "Population":17340702,
+        "Area_sq_mi":475440,
+        "id":"2232593 2231320 2234974 2228373 2235189 2226275 2234359 2229152 2229752 2223763 2227613"
+    },
+    {
+        "Country":"Canada",
+        "Languages":"English ",
+        "latitude":56.130366,
+        "longitude":-106.346771,
+        "Region":"NORTHERN AMERICA",
+        "Population":33098932,
+        "Area_sq_mi":9984670,
+        "id":"6167865 6077243 5913490 6094817 5946768 6075357 6091104 6183235 6173331 5969782 5907364 6159905 6050610"
+    },
+    {
+        "Country":"Chad",
+        "Languages":"Arabic, French",
+        "latitude":15.454166,
+        "longitude":18.732207,
+        "Region":"SUB-SAHARAN AFRICA",
+        "Population":9944201,
+        "Area_sq_mi":1284000,
+        "id":"2427123 2427455 2425791 245785 2430506 2429605 2426240 245338 2434910 2427637 2433437 2436400"
+    },
+    {
+        "Country":"Chile",
+        "Languages":"Spanish ",
+        "latitude":-35.675147,
+        "longitude":-71.542969,
+        "Region":"LATIN AMER. & CARIB",
+        "Population":16134219,
+        "Area_sq_mi":756950,
+        "id":"3877949 3870294 3871336 3893656 3897347 3899539 3887127 3877918 3870011"
+    },
+    {
+        "Country":"China",
+        "Languages":"Mandarin",
+        "latitude":35.86166,
+        "longitude":104.195397,
+        "Region":"ASIA (EX. NEAR EAST)",
+        "Population":1313973713,
+        "Area_sq_mi":9596960,
+        "id":"1796236 1816670 1814906 1792947 1809858 1795563 1815286 1799962 1791247 1808926 1812531 1811103 2034937 2037013"
+    },
+    {
+        "Country":"Colombia",
+        "Languages":"Spanish",
+        "latitude":4.570868,
+        "longitude":-74.297333,
+        "Region":"LATIN AMER. & CARIB",
+        "Population":43593035,
+        "Area_sq_mi":1138910,
+        "id":"3688689 3674962 3687925 3689147 3687238 3685533 3667849 3680656 3667905"
+    },
+    {
+        "Country":"Croatia",
+        "Languages":"Croatian",
+        "latitude":45.1,
+        "longitude":15.2,
+        "Region":"EASTERN EUROPE",
+        "Population":4494749,
+        "Area_sq_mi":56542,
+        "id":"3186886 3190261 3191648 3193935 3186952 3188244 3190586 3192224 3198259 3190813 3188383"
+    },
+    {
+        "Country":"Cuba",
+        "Languages":"Spanish",
+        "latitude":21.521757,
+        "longitude":-77.781167,
+        "Region":"LATIN AMER. & CARIB",
+        "Population":11382820,
+        "Area_sq_mi":110860,
+        "id":"3553478 3536729 3566067 3556969 3557689 3537900 3550595 3567597 3564124"
+    },
+    {
+        "Country":"Czech Republic",
+        "Languages":"Czech, Slovak",
+        "latitude":49.817492,
+        "longitude":15.472962,
+        "Region":"EASTERN EUROPE",
+        "Population":10235455,
+        "Area_sq_mi":78866,
+        "id":"3067696 3078610 3068799 3339575 3071961 3069011 3063548 3077916 3074967 3068582"
+    },
+    {
+        "Country":"Denmark",
+        "Languages":"Danish",
+        "latitude":56.26392,
+        "longitude":9.501785,
+        "Region":"WESTERN EUROPE",
+        "Population":5450661,
+        "Area_sq_mi":43094,
+        "id":"2618425 2615876 2624886 2622447 2615006 2618528 2619771 2610613 2614481"
+    },
+    {
+        "Country":"Dominican Republic",
+        "Languages":"Spanish",
+        "latitude":18.735693,
+        "longitude":-70.162651,
+        "Region":"LATIN AMER. & CARIB",
+        "Population":9183984,
+        "Area_sq_mi":48730,
+        "id":"3492908 3492914 3509382 3493032 3500957 3511540 3493240 3492985"
+    },
+    {
+        "Country":"Ecuador",
+        "Languages":"Spanish, Quechua ",
+        "latitude":-1.831239,
+        "longitude":-78.183406,
+        "Region":"LATIN AMER. & CARIB",
+        "Population":13547510,
+        "Area_sq_mi":283560,
+        "id":"3657509 3652462 3658666 3651297 3654533 3654410 3652941 3655673 3652567 3654667"
+    },
+    {
+        "Country":"Egypt",
+        "Languages":"Arabic",
+        "latitude":26.820553,
+        "longitude":30.802498,
+        "Region":"NORTHERN AFRICA",
+        "Population":78887007,
+        "Area_sq_mi":1001450,
+        "id":"360630 361058 360995 358619 359796 361055 359493 359792 358048 352344"
+    },
+    {
+        "Country":"Estonia",
+        "Languages":"Estonian",
+        "latitude":58.595272,
+        "longitude":25.013607,
+        "Region":"BALTICS",
+        "Population":1324333,
+        "Area_sq_mi":45226,
+        "id":"588409 588335 590031 589580 591260 587577 590447 589165 590939 592225 588686 587876"
+    },
+    {
+        "Country":"Ethiopia",
+        "Languages":"Amharic",
+        "latitude":9.145,
+        "longitude":40.489673,
+        "Region":"SUB-SAHARAN AFRICA",
+        "Population":74777981,
+        "Area_sq_mi":1127127,
+        "id":"344979 336014 343137 342884 338832 333772 333795 339666"
+    },
+    {
+        "Country":"Finland",
+        "Languages":"Finnish, Swedish",
+        "latitude":61.92411,
+        "longitude":25.748151,
+        "Region":"WESTERN EUROPE",
+        "Population":5231372,
+        "Area_sq_mi":338145,
+        "id":"658225 634963 633679 643492 655194 649360 650224 640999 655808 632978 648900 638936 637219 659180 650946"
+    },
+    {
+        "Country":"France",
+        "Languages":"French",
+        "latitude":46.227638,
+        "longitude":2.213749,
+        "Region":"WESTERN EUROPE",
+        "Population":60876136,
+        "Area_sq_mi":547030,
+        "id":"2968815 2995469 2996944 2972315 2990440 2990969 2992166 2973783 3031582 2998324 2983990 2984114 2980291"
+    },
+    {
+        "Country":"Gabon",
+        "Languages":"French",
+        "latitude":-0.803689,
+        "longitude":11.609444,
+        "Region":"SUB-SAHARAN AFRICA",
+        "Population":1424906,
+        "Area_sq_mi":267667,
+        "id":"2399697 2396518 2400555 2396646 2398269 2398073 2399888 2396253 2399959 2399371"
+    },
+    {
+        "Country":"Georgia",
+        "Languages":"Georgian",
+        "latitude":42.315407,
+        "longitude":43.356892,
+        "Region":"C.W. OF IND. STATES",
+        "Population":4661473,
+        "Area_sq_mi":69700,
+        "id":"611717 615532 613607 612287 614455 610824 613762 613988 612126 613074"
+    },
+    {
+        "Country":"Germany",
+        "Languages":"German",
+        "latitude":51.165691,
+        "longitude":10.451526,
+        "Region":"WESTERN EUROPE",
+        "Population":82422299,
+        "Area_sq_mi":357021,
+        "id":"2950158 2911298 2867714 2886242 2925533 2825297 2934246 2935517 2928809 2879139 5164239 2935022 2910831 2861650"
+    },
+    {
+        "Country":"Ghana",
+        "Languages":"English",
+        "latitude":7.946527,
+        "longitude":-1.023194,
+        "Region":"SUB-SAHARAN AFRICA",
+        "Population":22409572,
+        "Area_sq_mi":239460,
+        "id":"2306104 2298890 2294877 2295458 2295021 2302357 2294700 2299522 2294727"
+    },
+    {
+        "Country":"Greece",
+        "Languages":"Greek",
+        "latitude":39.074208,
+        "longitude":21.824312,
+        "Region":"WESTERN EUROPE",
+        "Population":10688058,
+        "Area_sq_mi":131940,
+        "id":"264371 8133841 8133690 255274 8133786 8133920 8133783 8133880 8133704 8133959 8133809 8133886"
+    },
+    {
+        "Country":"Guatemala",
+        "Languages":"Spanish",
+        "latitude":15.783471,
+        "longitude":-90.230759,
+        "Region":"LATIN AMER. & CARIB",
+        "Population":12293545,
+        "Area_sq_mi":108890,
+        "id":"3598132 3592519 3587902 3590979 3595803 3589885 3587923 3598529 3598572 3599735 3595416"
+    },
+    {
+        "Country":"Guinea",
+        "Languages":"French",
+        "latitude":9.945587,
+        "longitude":-9.696645,
+        "Region":"SUB-SAHARAN AFRICA",
+        "Population":9690222,
+        "Area_sq_mi":245857,
+        "id":"2422465 2416969 2419992 2421535 2419531 2415703 2419470 2418362 2420056"
+    },
+    {
+        "Country":"Guyana",
+        "Languages":"English",
+        "latitude":4.860416,
+        "longitude":-58.93018,
+        "Region":"LATIN AMER. & CARIB",
+        "Population":767245,
+        "Area_sq_mi":214970,
+        "id":"3378644 3377408 3376762 7303406 3379507 3375941 3376223 3377267 2473572 3376520 3375409"
+    },
+    {
+        "Country":"Honduras",
+        "Languages":"Spanish",
+        "latitude":15.199999,
+        "longitude":-86.241905,
+        "Region":"LATIN AMER. & CARIB",
+        "Population":7326496,
+        "Area_sq_mi":112090,
+        "id":"3600949 3601782 3608248 3613533 3610613 3613321 3613528 3612907 3607511 3600327"
+    },
+    {
+        "Country":"Hungary",
+        "Languages":"Hungarian",
+        "latitude":47.162494,
+        "longitude":19.503304,
+        "Region":"EASTERN EUROPE",
+        "Population":9981334,
+        "Area_sq_mi":93030,
+        "id":"3054638 721472 715429 717582 3046526 3052009 716935 3050434 3044774 3044310 715126 3053281"
+    },
+    {
+        "Country":"Iceland",
+        "Languages":"Icelandic, Icelandic Sign Language",
+        "latitude":64.963051,
+        "longitude":-19.020835,
+        "Region":"WESTERN EUROPE",
+        "Population":299388,
+        "Area_sq_mi":103000,
+        "id":"3413829 3415212 3416706 2633274 3417195 3415021 3418653 "
+    },
+    {
+        "Country":"India",
+        "Languages":"Hindi, English",
+        "latitude":20.593684,
+        "longitude":78.96288,
+        "Region":"ASIA (EX. NEAR EAST)",
+        "Population":1095351995,
+        "Area_sq_mi":3287590,
+        "id":"1275339 1273294 1269843 1279233 1264527 1275004 1259229 1269515 1264733 1267995 1262180 1269743 1275841"
+    },
+    {
+        "Country":"Indonesia",
+        "Languages":"Indonesian",
+        "latitude":-0.789275,
+        "longitude":113.921327,
+        "Region":"ASIA (EX. NEAR EAST)",
+        "Population":245452739,
+        "Area_sq_mi":1919440,
+        "id":"1625822 1649378 1650357 1642911 1214520 1645518 1625084 1627896 1633070 1622786"
+    },
+    {
+        "Country":"Iran",
+        "Languages":"Persian",
+        "latitude":32.427908,
+        "longitude":53.688046,
+        "Region":"ASIA (EX. NEAR EAST)",
+        "Population":68688433,
+        "Area_sq_mi":1648000,
+        "id":"112931 124665 418862 128747 115019 113646 119208 144448 128226 118743 1159301 128231"
+    },
+    {
+        "Country":"Iraq",
+        "Languages":"Arabic",
+        "latitude":33.223191,
+        "longitude":43.679291,
+        "Region":"NEAR EAST",
+        "Population":26783383,
+        "Area_sq_mi":437072,
+        "id":"99738 98182 99532 99072 95446 94787 98860 94824 98854 96994"
+    },
+    {
+        "Country":"Ireland",
+        "Languages":"English, Irish",
+        "latitude":53.41291,
+        "longitude":-8.24389,
+        "Region":"WESTERN EUROPE",
+        "Population":4062235,
+        "Area_sq_mi":70280,
+        "id":"2964574 2965140 2962941 2964820 2964179 2641520 2960991 2964661 2964540 2961297 2966022"
+    },
+    {
+        "Country":"Italy",
+        "Languages":"Italian",
+        "latitude":41.87194,
+        "longitude":12.56738,
+        "Region":"WESTERN EUROPE",
+        "Population":58133509,
+        "Area_sq_mi":301230,
+        "id":"3169070 3173435 3172394 3165524 2523918 3176219 3181927 3176959 3182350 2525065 2145255 3164603 2524169 3165185 3181554 3171457"
+    },
+    {
+        "Country":"Japan",
+        "Languages":"Japanese",
+        "latitude":36.204824,
+        "longitude":138.252924,
+        "Region":"ASIA (EX. NEAR EAST)",
+        "Population":127463611,
+        "Area_sq_mi":377835,
+        "id":"1850147 1853908 1857910 1856057 1860243 1862415 1848354 1848938 2111149 1850158 2128295 1859171 1863967 1859642 6940394"
+    },
+    {
+        "Country":"Jordan",
+        "Languages":"Arabic",
+        "latitude":30.585164,
+        "longitude":36.238414,
+        "Region":"NEAR EAST",
+        "Population":5906760,
+        "Area_sq_mi":92300,
+        "id":"250441 250090 248944 7838895 250774 250582 6946409"
+    },
+    {
+        "Country":"Kazakhstan",
+        "Languages":"Kazakh, Russian",
+        "latitude":48.019573,
+        "longitude":66.923684,
+        "Region":"C.W. OF IND. STATES",
+        "Population":15233244,
+        "Area_sq_mi":2717300,
+        "id":"1526384 1526273 1518980 610611 1516905 1519422 1520240 610529 1519928 1519922 610612"
+    },
+    {
+        "Country":"Kenya",
+        "Languages":"English",
+        "latitude":-0.023559,
+        "longitude":37.906193,
+        "Region":"SUB-SAHARAN AFRICA",
+        "Population":34707817,
+        "Area_sq_mi":582650,
+        "id":"184742 182361 191245 184622 198629 192126 179330 186827 187968 184707 191038"
+    },
+    {
+        "Country":"Kyrgyzstan",
+        "Languages":"Kyrgyz, Russian",
+        "latitude":41.20438,
+        "longitude":74.766098,
+        "Region":"C.W. OF IND. STATES",
+        "Population":5213898,
+        "Area_sq_mi":198500,
+        "id":"1528675 1527534 1528249 1528121 1527199 1528182 1527592 1527513 1527004 1527297"
+    },
+    {
+        "Country":"Laos",
+        "Languages":"Lao",
+        "latitude":19.85627,
+        "longitude":102.495496,
+        "Region":"ASIA (EX. NEAR EAST)",
+        "Population":6368481,
+        "Area_sq_mi":236800,
+        "id":"1651944 1653316 1655559 1952156 1654379 1652203 1655087 1655078 1904391 1655084"
+    },
+    {
+        "Country":"Liberia",
+        "Languages":"English",
+        "latitude":6.428055,
+        "longitude":-9.429499,
+        "Region":"SUB-SAHARAN AFRICA",
+        "Population":3042004,
+        "Area_sq_mi":111370,
+        "id":"2274895 2277060 2276086 2278682 2276492 2273312 2278158 2272491 2272790 2276600 2277197 2274275 2274129 2273638 2273435"
+    },
+    {
+        "Country":"Libya",
+        "Languages":"Arabic",
+        "latitude":26.3351,
+        "longitude":17.228331,
+        "Region":"NORTHERN AFRICA",
+        "Population":5900754,
+        "Area_sq_mi":1759540,
+        "id":"266826 88319 2210221 2219905 2216885 89113 2210554 81302 2208485 2210394 88903 2217362"
+    },
+    {
+        "Country":"Lithuania",
+        "Languages":"Lithuanian",
+        "latitude":55.169438,
+        "longitude":23.881275,
+        "Region":"BALTICS",
+        "Population":3585906,
+        "Area_sq_mi":65200,
+        "id":"593116 598316 601084 597188 593672 593926 593063 593959 593733 595689 597989 594656"
+    },
+    {
+        "Country":"Madagascar",
+        "Languages":"French, Malagasy",
+        "latitude":-18.766947,
+        "longitude":46.869107,
+        "Region":"SUB-SAHARAN AFRICA",
+        "Population":18595469,
+        "Area_sq_mi":587040,
+        "id":"1070940 1053384 1069166 1064890 1062663 1055429 1069129 1070661 1079048 1082243 1078446 1082639 1062553 1056386"
+    },
+    {
+        "Country":"Malawi",
+        "Languages":"English, Chichewa",
+        "latitude":-13.254308,
+        "longitude":34.301525,
+        "Region":"SUB-SAHARAN AFRICA",
+        "Population":13013926,
+        "Area_sq_mi":118480,
+        "id":"927967 931755 925475 923295 928534 927246 235715 924055 924705 927834 924572 924102 925498 931865 926747 925789 930025 927792"
+    },
+    {
+        "Country":"Malaysia",
+        "Languages":"Malay",
+        "latitude":4.210484,
+        "longitude":101.975766,
+        "Region":"ASIA (EX. NEAR EAST)",
+        "Population":24385858,
+        "Area_sq_mi":329750,
+        "id":"1733046 1735106 1734634 1735158 1732903 1734810 1732752 1734759 1733432 1736309 1734705 1735634 1738050 1732721"
+    },
+    {
+        "Country":"Mali",
+        "Languages":"French",
+        "latitude":17.570692,
+        "longitude":-3.996166,
+        "Region":"SUB-SAHARAN AFRICA",
+        "Population":11716829,
+        "Area_sq_mi":1240000,
+        "id":"2460596 2451185 2453348 2454268 2457163 2455518 2453662 2454955 2455558 2459775 2449067 2460546 2454530"
+    },
+    {
+        "Country":"Mauritania",
+        "Languages":"Arabic",
+        "latitude":21.00789,
+        "longitude":-10.940835,
+        "Region":"SUB-SAHARAN AFRICA",
+        "Population":3177388,
+        "Area_sq_mi":1030700,
+        "id":"2377450 2377457 522745 2376898 2378538 2375558 2381334 2381659 2381291"
+    },
+    {
+        "Country":"Mexico",
+        "Languages":"Spanish ",
+        "latitude":23.634501,
+        "longitude":-102.552784,
+        "Region":"LATIN AMER. & CARIB",
+        "Population":107449525,
+        "Area_sq_mi":1972550,
+        "id":"3530597 3981609 3529612 3998655 4011469 4005539 3979770 3995465 4014338 3523349 3522790 3531673 3988086 4019233"
+    },
+    {
+        "Country":"Monaco",
+        "Languages":"French",
+        "latitude":43.750298,
+        "longitude":7.412841,
+        "Region":"WESTERN EUROPE",
+        "Population":32543,
+        "Area_sq_mi":2,
+        "id":"3009937 3017814 3225774 2992741 3319177 2993458"
+    },
+    {
+        "Country":"Mongolia",
+        "Languages":"Mongolian",
+        "latitude":46.862496,
+        "longitude":103.846656,
+        "Region":"ASIA (EX. NEAR EAST)",
+        "Population":2832224,
+        "Area_sq_mi":1564116,
+        "id":"2028461 1515957 2032054 2029947 1515436 1516048 1515029 1515092 1516393"
+    },
+    {
+        "Country":"Morocco",
+        "Languages":"Arabic, Tamazight",
+        "latitude":31.791702,
+        "longitude":-7.09262,
+        "Region":"NORTHERN AFRICA",
+        "Population":33241259,
+        "Area_sq_mi":446550,
+        "id":"2553604 2548869 2530335 2542997 6546578 2538474 6545974 2544571 2561668 2528907 2529013 2537878 2542051"
+    },
+    {
+        "Country":"Mozambique",
+        "Languages":"Portuguese",
+        "latitude":-18.665695,
+        "longitude":35.529562,
+        "Region":"SUB-SAHARAN AFRICA",
+        "Population":19686505,
+        "Area_sq_mi":801590,
+        "id":"1039854 1040652 1033354 1052373 1049261 1028434 1026010 1035025 1043893 1028918 1024552 1039536"
+    },
+    {
+        "Country":"Namibia",
+        "Languages":"English",
+        "latitude":-22.95764,
+        "longitude":18.49041,
+        "Region":"SUB-SAHARAN AFRICA",
+        "Population":2044147,
+        "Area_sq_mi":825418,
+        "id":"3352136 3353383 3359638 3354021 3352844 877178 3357114 3353540 3353811 3354898 3357247"
+    },
+    {
+        "Country":"Netherlands",
+        "Languages":"Dutch ",
+        "latitude":52.132633,
+        "longitude":5.291266,
+        "Region":"WESTERN EUROPE",
+        "Population":16491461,
+        "Area_sq_mi":41526,
+        "id":"2759794 2747891 2747373 2745912 2756253 2746301 2755251 2759879 2758401 2750053 2756071"
+    },
+    {
+        "Country":"New Zealand",
+        "Languages":"English , Maori, New Zealand Sign Language",
+        "latitude":-40.900557,
+        "longitude":174.885971,
+        "Region":"OCEANIA",
+        "Population":4076140,
+        "Area_sq_mi":268680,
+        "id":"2193732 2179537 2192362 2187404 2179867 2185964 2190324 2191562 2208032 2188164 2185018 6241325 2190224 2186280"
+    },
+    {
+        "Country":"Nicaragua",
+        "Languages":"Spanish",
+        "latitude":12.865416,
+        "longitude":-85.207229,
+        "Region":"LATIN AMER. & CARIB",
+        "Population":5570129,
+        "Area_sq_mi":129494,
+        "id":"3617763 3617723 3620381 3617708 3619136 3618929 3619267 3617459 3828262 3618908 3616035 3620680 3620170"
+    },
+    {
+        "Country":"Niger",
+        "Languages":"French",
+        "latitude":17.607789,
+        "longitude":8.081666,
+        "Region":"SUB-SAHARAN AFRICA",
+        "Population":12525094,
+        "Area_sq_mi":1267000,
+        "id":"2440485 2437797 2441289 2448083 2447938 2439374 2445488 2437732 2438823 2444489 2445553 2445702 2447416"
+    },
+    {
+        "Country":"Nigeria",
+        "Languages":"English",
+        "latitude":9.081999,
+        "longitude":8.675277,
+        "Region":"SUB-SAHARAN AFRICA",
+        "Population":131859731,
+        "Area_sq_mi":923768,
+        "id":"2332459 2335204 2339354 2335727 2324774 2347283 2331447 2317765 2353151 2335953 2337639 2325200 2343279 2352947"
+    },
+    {
+        "Country":"Norway",
+        "Languages":"Norwegian, Sami",
+        "latitude":60.472024,
+        "longitude":8.468946,
+        "Region":"WESTERN EUROPE",
+        "Population":4610820,
+        "Area_sq_mi":323802,
+        "id":"3143244 3161732 3133880 3137115 3159016 3156529 3149318 3140321 3140084 3139075 3140390 3153623 3145375 3142657"
+    },
+    {
+        "Country":"Oman",
+        "Languages":"Arabic",
+        "latitude":21.512583,
+        "longitude":55.923255,
+        "Region":"NEAR EAST",
+        "Population":3102229,
+        "Area_sq_mi":212460,
+        "id":"287286 288967 288764 286282 288955 289011 286245 288721 287614 289433 411849"
+    },
+    {
+        "Country":"Pakistan",
+        "Languages":"English, Urdu",
+        "latitude":30.375321,
+        "longitude":69.345116,
+        "Region":"ASIA (EX. NEAR EAST)",
+        "Population":165803560,
+        "Area_sq_mi":803940,
+        "id":"1174872 1172451 1179400 1166993 1169825 1176734 1177662 1168197 1167528 1183105 1173055 1162015 1183880"
+    },
+    {
+        "Country":"Panama",
+        "Languages":"Spanish",
+        "latitude":8.537981,
+        "longitude":-80.782127,
+        "Region":"LATIN AMER. & CARIB",
+        "Population":3191319,
+        "Area_sq_mi":78200,
+        "id":"3703430 3701329 3711668 3706567 3707961 3703229 3700563 3701117 3712455 3712560 3708066 3703229"
+    },
+    {
+        "Country":"Papua New Guinea",
+        "Languages":"English, Hiri Motu, PNG Sign Language, Tok Pisin",
+        "latitude":-6.314993,
+        "longitude":143.95555,
+        "Region":"OCEANIA",
+        "Population":5670544,
+        "Area_sq_mi":462840,
+        "id":"2088122 2092740 2100633 2090409 2088163 2091996 2093685 2090990 2093967 2096742 2083537 2098869"
+    },
+    {
+        "Country":"Paraguay",
+        "Languages":"Spanish, Guaran\u00ed",
+        "latitude":-23.442503,
+        "longitude":-58.443832,
+        "Region":"LATIN AMER. & CARIB",
+        "Population":6506464,
+        "Area_sq_mi":406750,
+        "id":"3437127 3439101 3437842 3437665 3437056 3438995 3436728 3438115 3439018 3437444 3437547 3438819 3437526"
+    },
+    {
+        "Country":"Peru",
+        "Languages":"Spanish, Aymara, Quechua",
+        "latitude":-9.189967,
+        "longitude":-75.015152,
+        "Region":"LATIN AMER. & CARIB",
+        "Population":28302603,
+        "Area_sq_mi":1285220,
+        "id":"3936452 3947319 3946080 3691175 3698350 3696183 3939459 3693525 3698304 3941583 3693345 3928127 3928245 3938526 3937513"
+    },
+    {
+        "Country":"Philippines",
+        "Languages":"English, Filipino, Filipino Sign Language",
+        "latitude":12.879721,
+        "longitude":121.774017,
+        "Region":"ASIA (EX. NEAR EAST)",
+        "Population":89468677,
+        "Area_sq_mi":300000,
+        "id":"1692193 1701668 1720148 1723510 1715348 1978681 1717512 1713022 1684308 1730499 1703417 1679432 1729564"
+    },
+    {
+        "Country":"Poland",
+        "Languages":"Polish",
+        "latitude":51.919438,
+        "longitude":19.145136,
+        "Region":"EASTERN EUROPE",
+        "Population":38536869,
+        "Area_sq_mi":312685,
+        "id":"756135 3094802 3093133 3081368 3088171 2884850 3083829 3102014 765876 3096472 3099424 760778 7530918 3085128 769250 3099230 763166 3080985"
+    },
+    {
+        "Country":"Portugal",
+        "Languages":"Portuguese",
+        "latitude":39.399872,
+        "longitude":-8.224454,
+        "Region":"WESTERN EUROPE",
+        "Population":10605870,
+        "Area_sq_mi":92391,
+        "id":"2267057 2735943 2271772 2742032 2740637 2264268 2267827 2732544 2266977 2739695 2263827 2265467 2742611 2271680 2269041"
+    },
+    {
+        "Country":"Romania",
+        "Languages":"Romanian",
+        "latitude":45.943161,
+        "longitude":24.96676,
+        "Region":"EASTERN EUROPE",
+        "Population":22303552,
+        "Area_sq_mi":237500,
+        "id":"683506 681290 680962 680332 670059 671768 683901 686253 667267 685947 685826 683121 667869 668872 678817 665849"
+    },
+    {
+        "Country":"Russia",
+        "Languages":"Russian",
+        "latitude":61.52401,
+        "longitude":105.318756,
+        "Region":"C.W. OF IND. STATES",
+        "Population":142893540,
+        "Area_sq_mi":17075200,
+        "id":"524894 498817 1496747 1486209 551487 520555 1508291 499099 1496153 501175 479561 541346 472045 511196 472757 542420 498677 1488754 554840 1510853 479123 2023469 2022890"
+    },
+    {
+        "Country":"Saudi Arabia",
+        "Languages":"Arabic",
+        "latitude":23.885942,
+        "longitude":45.079162,
+        "Region":"NEAR EAST",
+        "Population":27019731,
+        "Area_sq_mi":1960582,
+        "id":"108410 105343 104515 109223 110336 101628 109353 107304 105072 109101 106297 106281 109435 110690 100425 109323"
+    },
+    {
+        "Country":"Senegal",
+        "Languages":"French",
+        "latitude":14.497401,
+        "longitude":-14.452362,
+        "Region":"SUB-SAHARAN AFRICA",
+        "Population":11987121,
+        "Area_sq_mi":196190,
+        "id":"2253350 2244322 2244802 2250804 2243939 2246451 2252308 2249221 2244990 2249781 2251007 2247813 2253901 2251910"
+    },
+    {
+        "Country":"Serbia",
+        "Languages":"Serbian",
+        "latitude":44.016521,
+        "longitude":21.005859,
+        "Region":"EASTERN EUROPE",
+        "Population":9396411,
+        "Area_sq_mi":88361,
+        "id":"792680 3194360 783920 789128 3189595 788709 787595 789107 783814 785756 3188402 784227 784873"
+    },
+    {
+        "Country":"Slovakia",
+        "Languages":"Slovak",
+        "latitude":48.669026,
+        "longitude":19.699024,
+        "Region":"EASTERN EUROPE",
+        "Population":5439448,
+        "Area_sq_mi":48845,
+        "id":"3060972 865084 865085 3058531 3056506 3343954 3057124 3343957 723846 3058000 3056459 724144"
+    },
+    {
+        "Country":"Somalia",
+        "Languages":"Arabic",
+        "latitude":5.152149,
+        "longitude":46.199616,
+        "Region":"SUB-SAHARAN AFRICA",
+        "Population":8863338,
+        "Area_sq_mi":637657,
+        "id":"53654 57289 64435 55671 54225 56399 64536 63795 64013 65785 59611 400769 58933 64460"
+    },
+    {
+        "Country":"South Africa",
+        "Languages":"Afrikaans, English, Southern Ndebele, Sotho, Northern Sotho, Swazi, Tsonga, Tswana, Venda, Xhosa, Zulu",
+        "latitude":-30.559482,
+        "longitude":22.937506,
+        "Region":"SUB-SAHARAN AFRICA",
+        "Population":44187637,
+        "Area_sq_mi":1219912,
+        "id":"3369157 1007311 993800 953781 964137 964420 965301 1020098 949880 1006984 944385 1018725 1017780 940908"
+    },
+    {
+        "Country":"Spain",
+        "Languages":"Spanish",
+        "latitude":40.463667,
+        "longitude":-3.74922,
+        "Region":"WESTERN EUROPE",
+        "Population":40397842,
+        "Area_sq_mi":504782,
+        "id":"3117735 3128760 2509954 2510911 3104324 2513416 2512989 2515270 3128026 2521978 6357216 3106672 3105971 6544100 3120619"
+    },
+    {
+        "Country":"Sudan",
+        "Languages":"Arabic, English",
+        "latitude":12.862807,
+        "longitude":30.217636,
+        "Region":"SUB-SAHARAN AFRICA",
+        "Population":41236378,
+        "Area_sq_mi":2505810,
+        "id":"379252 365137 369004 377039 372753 379003 379062 371760 364103 379555 366847 380174 379303 368277"
+    },
+    {
+        "Country":"Suriname",
+        "Languages":"Dutch",
+        "latitude":3.919305,
+        "longitude":-56.027783,
+        "Region":"LATIN AMER. & CARIB",
+        "Population":439117,
+        "Area_sq_mi":163270,
+        "id":"3383330 3383714 3383427 3383494 3383434 3383570 3382783 3384792 3384125 3384475"
+    },
+    {
+        "Country":"Sweden",
+        "Languages":"Swedish",
+        "latitude":60.128161,
+        "longitude":18.643501,
+        "Region":"WESTERN EUROPE",
+        "Population":9016596,
+        "Area_sq_mi":449964,
+        "id":"2673722 2711537 2692965 2666199 2666238 2664441 2686657 2694762 2706766 2715953 2702979 2688368 2693678"
+    },
+    {
+        "Country":"Switzerland",
+        "Languages":"French ",
+        "latitude":46.818188,
+        "longitude":8.227512,
+        "Region":"WESTERN EUROPE",
+        "Population":7523934,
+        "Area_sq_mi":41290,
+        "id":"2657896 6458783 2661604 2659994 2661552 2657970 7287240 2659836 2661513 2658377 2661567 2660119 2660076"
+    },
+    {
+        "Country":"Syria",
+        "Languages":"Arabic",
+        "latitude":34.802075,
+        "longitude":38.996815,
+        "Region":"NEAR EAST",
+        "Population":18881361,
+        "Area_sq_mi":185180,
+        "id":"170063 170654 169577 173576 170794 172955 169389 170592 167357 163345 172374 169304"
+    },
+    {
+        "Country":"Tanzania",
+        "Languages":"English",
+        "latitude":-6.369028,
+        "longitude":34.888822,
+        "Region":"SUB-SAHARAN AFRICA",
+        "Population":37445392,
+        "Area_sq_mi":945087,
+        "id":"160263 152224 148730 161325 154380 153220 149606 160196 157738 153209"
+    },
+    {
+        "Country":"Thailand",
+        "Languages":"Thai",
+        "latitude":15.870032,
+        "longitude":100.992541,
+        "Region":"ASIA (EX. NEAR EAST)",
+        "Population":64631595,
+        "Area_sq_mi":514000,
+        "id":"1609348 1608132 1608048 1610780 1608529 1605239 1153671 1150515 1609776 1614295 1151933 1608527"
+    },
+    {
+        "Country":"Tunisia",
+        "Languages":"Arabic",
+        "latitude":33.886917,
+        "longitude":9.537499,
+        "Region":"NORTHERN AFRICA",
+        "Population":10175014,
+        "Area_sq_mi":163610,
+        "id":"2464470 2467454 2464915 2473449 2472706 2473247 2473457 2468353 2470656 2470173 2472479 2473493"
+    },
+    {
+        "Country":"Turkey",
+        "Languages":"Turkish",
+        "latitude":38.963745,
+        "longitude":35.243322,
+        "Region":"NEAR EAST",
+        "Population":70413958,
+        "Area_sq_mi":780580,
+        "id":"745044 323784 311044 750268 325361 314829 306569 323776 308463 304531 315201 316540 740263 317106 298332"
+    },
+    {
+        "Country":"Turkmenistan",
+        "Languages":"Turkmen",
+        "latitude":38.969719,
+        "longitude":59.556278,
+        "Region":"C.W. OF IND. STATES",
+        "Population":5042920,
+        "Area_sq_mi":488100,
+        "id":"162183 1219649 601734 1218666 161931 161616 1218239 601594 162099 1219392 1219002"
+    },
+    {
+        "Country":"Uganda",
+        "Languages":"English, Swahili",
+        "latitude":1.373333,
+        "longitude":32.290275,
+        "Region":"SUB-SAHARAN AFRICA",
+        "Population":28195754,
+        "Area_sq_mi":236040,
+        "id":"232422 233346 230166 229268 233114 233730 229278 228853 232066 229380 233508 227812"
+    },
+    {
+        "Country":"Ukraine",
+        "Languages":"Ukrainian",
+        "latitude":48.379433,
+        "longitude":31.16558,
+        "Region":"C.W. OF IND. STATES",
+        "Population":46710816,
+        "Area_sq_mi":603700,
+        "id":"703448 706483 698740 709930 709717 702550 703845 700568 701822 702658 689558 694423 693805"
+    },
+    {
+        "Country":"United Arab Emirates",
+        "Languages":"Arabic",
+        "latitude":23.424076,
+        "longitude":53.847818,
+        "Region":"NEAR EAST",
+        "Population":2602713,
+        "Area_sq_mi":82880,
+        "id":"292223 292968 292672 292913 292932 292879 290595 292239 292953 292688"
+    },
+    {
+        "Country":"United Kingdom",
+        "Languages":"English ",
+        "latitude":55.378051,
+        "longitude":-3.435973,
+        "Region":"WESTERN EUROPE",
+        "Population":60609153,
+        "Area_sq_mi":244820,
+        "id":"2643743 2655603 2644210 2641170 2638077 2654675 2648579 2644668 2650225 2644688 2653822 2643123 2636841 2652221 2636531"
+    },
+    {
+        "Country":"United States",
+        "Languages":"English ",
+        "latitude":37.09024,
+        "longitude":-95.712891,
+        "Region":"NORTHERN AMERICA",
+        "Population":298444215,
+        "Area_sq_mi":9631420,
+        "id":"5128581 5368361 4887398 4699066 5308655 4560349 4726206 5391811 4684888 4671654 5392171 4691930 4160021 4509177 4460243 4259418 5397765 5809844 5419384 4140963 4930956"
+    },
+    {
+        "Country":"Uruguay",
+        "Languages":"Spanish ",
+        "latitude":-32.522779,
+        "longitude":-55.765835,
+        "Region":"LATIN AMER. & CARIB",
+        "Population":3431932,
+        "Area_sq_mi":176220,
+        "id":"3441575 3440714 3441242 3442057 3440781 3441894 3440034 3441702 3441684 3443758 3441665 3440639 3442727"
+    },
+    {
+        "Country":"Uzbekistan",
+        "Languages":"Uzbek",
+        "latitude":41.377491,
+        "longitude":64.585262,
+        "Region":"C.W. OF IND. STATES",
+        "Population":27307134,
+        "Area_sq_mi":447400,
+        "id":"1512569 1513157 1514588 1114929 601294 1216311 1514210 1484845 1513886 1512473 1215957"
+    },
+    {
+        "Country":"Venezuela",
+        "Languages":"Spanish, Venezuelan Sign Language",
+        "latitude":6.42375,
+        "longitude":-66.58973,
+        "Region":"LATIN AMER. & CARIB",
+        "Population":25730435,
+        "Area_sq_mi":912050,
+        "id":"3646738 3633009 3632998 3625549 3648522 3645528 3648559 3778045 3629672 3630297 3648546 3625829 3645532"
+    },
+    {
+        "Country":"Vietnam",
+        "Languages":"Vietnamese",
+        "latitude":14.058324,
+        "longitude":108.277199,
+        "Region":"ASIA (EX. NEAR EAST)",
+        "Population":84402966,
+        "Area_sq_mi":329560,
+        "id":"1566083 1581298 1581188 1572151 1562798 1905686 1565033 1905497 1584534 1905412"
+    },
+    {
+        "Country":"Yemen",
+        "Languages":"Arabic",
+        "latitude":15.552727,
+        "longitude":48.516388,
+        "Region":"NEAR EAST",
+        "Population":21456188,
+        "Area_sq_mi":527970,
+        "id":"71132 79415 70225 415189 78754 74475 76184 78428 70979 69500 77408 75337"
+    },
+    {
+        "Country":"Zambia",
+        "Languages":"English",
+        "latitude":-13.133897,
+        "longitude":27.849332,
+        "Region":"SUB-SAHARAN AFRICA",
+        "Population":11502010,
+        "Area_sq_mi":752614,
+        "id":"909137 911148 901344 916095 919009 905395 909863 910111 912764 918702 914959 907111"
+    },
+    {
+        "Country":"Zimbabwe",
+        "Languages":"Chewa, Chibarwe, English, Kalanga, Khoisan, Nambya, Ndau, Ndebele, Shangani, Shona, Sign language, Sotho, Tonga, Tswana, Venda, Xhosa",
+        "latitude":-19.015438,
+        "longitude":29.154857,
+        "Region":"SUB-SAHARAN AFRICA",
+        "Population":12236805,
+        "Area_sq_mi":390580,
+        "id":"890299 894701 1106542 884979 890422 1085510 888710 889453 886763 893697 886990 884141 894239"
+    }
+]
