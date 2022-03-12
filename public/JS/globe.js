@@ -18,15 +18,6 @@ xhttp.send();
 console.log(data);
 
 
-let ID = 833
-    fetch(`https://api.openweathermap.org/data/2.5/weather?id=${ID}&appid=b104ae7f003915dad5de7ad6ca20c2fc`)
-        .then(function (resp) { return resp.json() })
-        .then(function (data) {
-            console.log(data)
-            document.querySelector('.weather-box').append(`${data.name}`);
-        })
-
-
 // THREEJS CODE
 
 const scene = new THREE.Scene();
@@ -84,17 +75,16 @@ earthClouds.scale.set( 1.015, 1.015, 1.015);
 earth.add( earthClouds ) 
 
 
-//agfalirghladrfgjkakd;gka
-
+//SRGRDGSGHSTGG
 
 let earthPolitGeo = new THREE.SphereGeometry(9.88, 32, 32);
 
-let earthPolitTexture = new THREE.TextureLoader().load('../IMAGES/unnamed.jpg');
+let earthPolitTexture = new THREE.TextureLoader().load('../IMAGES/poltgeo.png')
 
 let earthMaterialPolit = new THREE.MeshPhongMaterial({
     map: earthPolitTexture,
     transparent:true,
-    opacity: 0.5
+    opacity: .6,
 });
 
 let earthPolit = new THREE.Mesh(earthPolitGeo, earthMaterialPolit);
@@ -102,6 +92,25 @@ let earthPolit = new THREE.Mesh(earthPolitGeo, earthMaterialPolit);
 earthPolit.scale.set( 1.015, 1.015, 1.015);
 
 earth.add( earthPolit ) 
+
+//agfalirghladrfgjkakd;gka
+
+
+let earthBordersGeo = new THREE.SphereGeometry(9.88, 32, 32);
+
+let earthBordersTexture = new THREE.TextureLoader().load('../IMAGES/LABLES.png')
+
+let earthMaterialBorders = new THREE.MeshPhongMaterial({
+    map: earthBordersTexture,
+    transparent:true,
+    opacity: 1,
+});
+
+let earthBorders = new THREE.Mesh(earthBordersGeo, earthMaterialBorders);
+
+earthBorders.scale.set( 1.015, 1.015, 1.015);
+
+earth.add( earthBorders ) 
 
 //flsdjkhhjrtkghklstjkhstjh
 
@@ -145,7 +154,7 @@ function addSceneObjects(scene) {
 addSceneObjects(scene);
 
 // Change position so we can see the objects
-camera.position.z = 20;
+camera.position.z = 23;
 
 // Disable control function, so users do not zoom too far in or pan away from center
 controls.minDistance = 11;
@@ -157,6 +166,7 @@ controls.saveState();
 // Add event listeners so DOM knows what functions to use when objects/items are interacted with
 window.addEventListener('resize', onWindowResize, false);
 window.addEventListener('click', onWindowClick, false);
+window.addEventListener('touchstart', onWindowTouch, false);
 //window.addEventListener('touchstart', onTouch, false);
 
 // Resizes the window when it changes
@@ -175,17 +185,200 @@ function onWindowClick(event) {
 
     let intersects = raycaster.intersectObjects(earthClouds.children);
 
-    for (let i = 0; i < intersects.length; i++){
-        document.querySelector("#region").innerText = "Регион: " + intersects[0].object.userData.region;
-        document.getElementById("region").style.color = 'black'
+        if (intersects[0].object.userData.region != undefined) {
+        while (document.querySelector('.city-info')) {document.querySelector('.city-info').remove()};}
+
+        document.querySelector("#region").innerHTML = '<span class="span-info">Регион:</span> ' + intersects[0].object.userData.region;
         document.querySelector("#country-info").innerText = "" + intersects[0].object.userData.country;
-        document.querySelector("#language").innerText = "Язык: " + intersects[0].object.userData.language;
-        document.querySelector("#population").innerText = "Население: " + intersects[0].object.userData.population;
-        document.querySelector("#area-sq-mi").innerText = "Площадь(кв миль): " + intersects[0].object.userData.area_sq_mi;
-    }
-    const item = intersects[0];
-    let point = item.point;
-    let camDistance = camera.position.copy(point).normalize.multiplyScalar(camDistance);
+        document.querySelector("#language").innerHTML = '<span class="span-info">Язык:</span> ' + intersects[0].object.userData.language;
+        document.querySelector("#population").innerHTML = '<span class="span-info">Население:</span> ' + intersects[0].object.userData.population;
+        document.querySelector("#area-sq-mi").innerHTML = '<span class="span-info">Площадь(кв миль):</span> ' + intersects[0].object.userData.area_sq_mi;
+
+        if (earthClouds.children.length > 116) {
+            let lastPoint = earthClouds.children.length -1;
+            console.log(earthClouds.children[lastPoint]);
+            earthClouds.remove(earthClouds.children[lastPoint].material.dispose());
+            earthClouds.remove(earthClouds.children[lastPoint].geometry.dispose());
+            earthClouds.remove(earthClouds.children[lastPoint]);
+        };
+     
+        addCountryCoord(intersects[0].object.userData.country, intersects[0].object.userData.language, intersects[0].object.userData.latitude, intersects[0].object.userData.longitude, 'green', intersects[0].object.userData.region, intersects[0].object.userData.population, intersects[0].object.userData.area_sq_mi, intersects[0].object.userData.id, 1, .26);
+        
+        console.log(intersects);
+
+        let idArr = intersects[0].object.userData.id.split(' ');   
+        
+
+        for (let numb of idArr) {
+            fetch(`https://api.openweathermap.org/data/2.5/weather?id=${numb}&appid=b104ae7f003915dad5de7ad6ca20c2fc`)
+                .then(function (resp) { return resp.json() })
+                .then(function (data) {
+                    console.log(data);
+                    
+                    let cbox = document.createElement('div')
+                    cbox.className = `city-box${numb} cb`
+                    document.querySelector('.weather-box').append(cbox);
+
+                        let name = document.createElement('div')
+                        name.innerHTML = `${data.name}`
+                        name.className = 'city-info city-name'
+                        document.querySelector(`.city-box${numb}`).append(name);
+
+                        let weather = document.createElement('div')
+                        weather.className = `city-info weather${numb}`
+                        document.querySelector(`.city-box${numb}`).append(weather);
+
+                            let main = document.createElement('div')
+                            main.className = `city-info main${numb}`
+                            document.querySelector(`.weather${numb}`).append(main);
+                            
+                                let temp = document.createElement('div')
+                                temp.innerHTML = `Температура: ${Math.round(data.main.temp - 273)}&degC`
+                                temp.className = 'city-info city-temp'
+                                document.querySelector(`.main${numb}`).append(temp);
+
+                                let clouds = document.createElement('div')
+                                clouds.innerHTML = `Облачность: ${data.clouds.all}%`
+                                clouds.className = 'city-info city-clouds'
+                                document.querySelector(`.main${numb}`).append(clouds);
+
+                            let  atmosphere= document.createElement('div')
+                            atmosphere.className = `city-info atmosphere${numb}`
+                            document.querySelector(`.weather${numb}`).append(atmosphere);
+
+                                let humidity = document.createElement('div')
+                                humidity.innerHTML = `Влажность: ${data.main.humidity}%`
+                                humidity.className = 'city-info city-humid'
+                                document.querySelector(`.atmosphere${numb}`).append(humidity);
+
+                                let pressure = document.createElement('div')
+                                pressure.innerHTML = `Давление: ${Math.round(data.main.pressure * 0.75)} мм. рт. ст.`
+                                pressure.className = 'city-info city-pressure'
+                                document.querySelector(`.atmosphere${numb}`).append(pressure);
+
+                            let  wind = document.createElement('div')
+                            wind.className = `city-info wind${numb}`
+                            document.querySelector(`.weather${numb}`).append(wind);
+
+                                let windDir = document.createElement('div')
+                                windDir.innerHTML = `Направление ветра: ${data.wind.deg}&deg`
+                                windDir.className = 'city-info city-widDir'
+                                document.querySelector(`.wind${numb}`).append(windDir);
+
+                                let windSp = document.createElement('div')
+                                windSp.innerHTML = `Скорость ветра: ${data.wind.speed}м/с`
+                                windSp.className = 'city-info city-windSp'
+                                document.querySelector(`.wind${numb}`).append(windSp);
+            })
+        }
+
+        
+    // Show/hide needed and unneeded elements
+    document.getElementById("info-box").style.display = "flex";
+    document.querySelector(".weather-info").style.display = "block";
+    
+};
+
+function onWindowTouch(event) {
+    event.preventDefault();
+    mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
+    mouse.y = - (event.clientY / window.innerHeight) * 2 + 1;
+    raycaster.setFromCamera(mouse, camera);
+
+    let intersects = raycaster.intersectObjects(earthClouds.children);
+
+        if (intersects[0].object.userData.region != undefined) {
+        while (document.querySelector('.city-info')) {document.querySelector('.city-info').remove()};}
+
+        document.querySelector("#region").innerHTML = '<span class="span-info">Регион:</span> ' + intersects[0].object.userData.region;
+        document.querySelector("#country-info").innerText = "" + intersects[0].object.userData.country;
+        document.querySelector("#language").innerHTML = '<span class="span-info">Язык:</span> ' + intersects[0].object.userData.language;
+        document.querySelector("#population").innerHTML = '<span class="span-info">Население:</span> ' + intersects[0].object.userData.population;
+        document.querySelector("#area-sq-mi").innerHTML = '<span class="span-info">Площадь(кв миль):</span> ' + intersects[0].object.userData.area_sq_mi;
+
+        if (earthClouds.children.length > 116) {
+            let lastPoint = earthClouds.children.length -1;
+            console.log(earthClouds.children[lastPoint]);
+            earthClouds.remove(earthClouds.children[lastPoint].material.dispose());
+            earthClouds.remove(earthClouds.children[lastPoint].geometry.dispose());
+            earthClouds.remove(earthClouds.children[lastPoint]);
+        };
+     
+        addCountryCoord(intersects[0].object.userData.country, intersects[0].object.userData.language, intersects[0].object.userData.latitude, intersects[0].object.userData.longitude, 'green', intersects[0].object.userData.region, intersects[0].object.userData.population, intersects[0].object.userData.area_sq_mi, intersects[0].object.userData.id, 1, .26);
+        
+        console.log(intersects);
+
+        let idArr = intersects[0].object.userData.id.split(' ');   
+        
+
+        for (let numb of idArr) {
+            fetch(`https://api.openweathermap.org/data/2.5/weather?id=${numb}&appid=b104ae7f003915dad5de7ad6ca20c2fc`)
+                .then(function (resp) { return resp.json() })
+                .then(function (data) {
+                    console.log(data);
+                    
+                    let cbox = document.createElement('div')
+                    cbox.className = `city-box${numb} cb`
+                    document.querySelector('.weather-box').append(cbox);
+
+                        let name = document.createElement('div')
+                        name.innerHTML = `${data.name}`
+                        name.className = 'city-info city-name'
+                        document.querySelector(`.city-box${numb}`).append(name);
+
+                        let weather = document.createElement('div')
+                        weather.className = `city-info weather${numb}`
+                        document.querySelector(`.city-box${numb}`).append(weather);
+
+                            let main = document.createElement('div')
+                            main.className = `city-info main${numb}`
+                            document.querySelector(`.weather${numb}`).append(main);
+                            
+                                let temp = document.createElement('div')
+                                temp.innerHTML = `Температура: ${Math.round(data.main.temp - 273)}&degC`
+                                temp.className = 'city-info city-temp'
+                                document.querySelector(`.main${numb}`).append(temp);
+
+                                let clouds = document.createElement('div')
+                                clouds.innerHTML = `Облачность: ${data.clouds.all}%`
+                                clouds.className = 'city-info city-clouds'
+                                document.querySelector(`.main${numb}`).append(clouds);
+
+                            let  atmosphere= document.createElement('div')
+                            atmosphere.className = `city-info atmosphere${numb}`
+                            document.querySelector(`.weather${numb}`).append(atmosphere);
+
+                                let humidity = document.createElement('div')
+                                humidity.innerHTML = `Влажность: ${data.main.humidity}%`
+                                humidity.className = 'city-info city-humid'
+                                document.querySelector(`.atmosphere${numb}`).append(humidity);
+
+                                let pressure = document.createElement('div')
+                                pressure.innerHTML = `Давление: ${Math.round(data.main.pressure * 0.75)} мм. рт. ст.`
+                                pressure.className = 'city-info city-pressure'
+                                document.querySelector(`.atmosphere${numb}`).append(pressure);
+
+                            let  wind = document.createElement('div')
+                            wind.className = `city-info wind${numb}`
+                            document.querySelector(`.weather${numb}`).append(wind);
+
+                                let windDir = document.createElement('div')
+                                windDir.innerHTML = `Направление ветра: ${data.wind.deg}&deg`
+                                windDir.className = 'city-info city-widDir'
+                                document.querySelector(`.wind${numb}`).append(windDir);
+
+                                let windSp = document.createElement('div')
+                                windSp.innerHTML = `Скорость ветра: ${data.wind.speed}м/с`
+                                windSp.className = 'city-info city-windSp'
+                                document.querySelector(`.wind${numb}`).append(windSp);
+            })
+        }
+
+        
+    // Show/hide needed and unneeded elements
+    document.getElementById("info-box").style.display = "flex";
+    document.querySelector(".weather-info").style.display = "block";
+    
 };
 
 // Allows for the scene to move and be interacted with
@@ -211,13 +404,11 @@ function removeChildren(){
 };
 
 // Create and add coordinates for the globe
-function addCountryCoord(earth, country, language, latitude, longitude, color, region, population, area_sq_mi){
-    let pointOfInterest = new THREE.ConeGeometry( .13, .5, 5 );;
+function addCountryCoord(country, language, latitude, longitude, color, region, population, area_sq_mi, id, height, width){
+    let pointOfInterest = new THREE.ConeGeometry( width, height, 5 );;
     let lat = latitude * (Math.PI/180);
     let lon = -longitude * (Math.PI/180);
     const radius = 10;
-    const phi = (90-lat)*(Math.PI/180);
-    const theta = (lon+180)*(Math.PI/180);
 
     let material = new THREE.MeshBasicMaterial({
         color:color
@@ -242,6 +433,9 @@ function addCountryCoord(earth, country, language, latitude, longitude, color, r
     mesh.userData.region = region;
     mesh.userData.population = population;
     mesh.userData.area_sq_mi = area_sq_mi;
+    mesh.userData.id = id
+    mesh.userData.longitude = longitude;
+    mesh.userData.latitude = latitude;
     
     earthClouds.add(mesh)
 
@@ -253,39 +447,23 @@ countryInfo.addEventListener("click", changeToCountry);
 
 // Changes the information so data points can be seen
 function changeToCountry() {
-    // Show/hide needed and unneeded elements
-    document.getElementById("info-box").style.display = "flex";
-    document.querySelector(".weather-box").style.display = "flex";
-
-    removeChildren();
-
-    let currentCityId = []
-    let getCities = new XMLHttpRequest();
-    getCities.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-            for (let i = 0; i < data.length; i++) {
-                if (data[i][country] == document.querySelector("#country-info").innerText) {
-                    currentCityId.push(data[i][id]);
-                }
-            }
-        }
-    };
-    getCities.open("GET", "../DATA/city.list.json", true);
-    getCities.send();
-
-
-console.log(currentCityId)
 
     // Get the data from the JSON file
-    for (let i = 0; i < data.length; i++){
-            addCountryCoord(earth, data[i].Country, data[i].Languages, data[i].latitude, data[i].longitude, 'white', data[i].Region, data[i].Population, data[i].Area_sq_mi);
-    }
+    if (document.getElementById("country").innerText == 'Скрыть маркеры') {
+        removeChildren();
+        document.getElementById("country").innerText = 'Показать маркеры';
+    } else {
+        for (let i = 0; i < data.length; i++){
+        addCountryCoord(data[i].Country, data[i].Languages, data[i].latitude, data[i].longitude, 'white', data[i].Region, data[i].Population, data[i].Area_sq_mi, data[i].id, .5, .13);
+        }
+        document.getElementById("country").innerText = 'Скрыть маркеры';
+    };
+
 };
 
-// Call the animation function so scene is properly rendered
+// Call the animation functnpm startion so scene is properly rendered
 animate();
 
 
 // my shit
-
 
