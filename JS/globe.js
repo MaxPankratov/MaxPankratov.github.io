@@ -166,8 +166,7 @@ controls.saveState();
 // Add event listeners so DOM knows what functions to use when objects/items are interacted with
 window.addEventListener('resize', onWindowResize, false);
 window.addEventListener('click', onWindowClick, false);
-window.addEventListener('touchstart', onWindowTouch, false);
-//window.addEventListener('touchstart', onTouch, false);
+window.addEventListener('touchstart', onTouch, false);
 
 // Resizes the window when it changes
 function onWindowResize() {
@@ -279,10 +278,9 @@ function onWindowClick(event) {
     
 };
 
-function onWindowTouch(event) {
-    event.preventDefault();
-    mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
-    mouse.y = - (event.clientY / window.innerHeight) * 2 + 1;
+function onTouch(event) {
+    mouse.x = (event.touches[0].pageX / window.innerWidth) * 2 - 1;
+    mouse.y = - (event.touches[0].pageY / window.innerHeight) * 2 + 1;
     raycaster.setFromCamera(mouse, camera);
 
     let intersects = raycaster.intersectObjects(earthClouds.children);
