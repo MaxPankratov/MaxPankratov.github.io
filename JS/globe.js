@@ -384,6 +384,7 @@ function animate() {
     requestAnimationFrame( animate );
     render();
 	controls.update();
+    earth.rotation.y += 0.0002;
 };
 
 // Updates camera renderer
