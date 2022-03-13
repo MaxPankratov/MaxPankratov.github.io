@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>GLOBE VISUAL</title>
+		<link rel="stylesheet" type="text/css" href="./CSS/style.css" media="screen" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	</head>
+
+    <body>
+
+		<div id="title-box">
+			<img src="IMAGES/weatherplanet.png" width="20%" alt="">
+		</div>
+
+		<!-- <div id="display-box"> -->
+
+			<button id="country">
+				Показать маркеры
+			</button>
+
+		<!-- </div> -->
+		<div class="weather-info">
+			<p class="weather-box-title">Города</p>
+
+			<div class="weather-box">
+
+			</div>
+		</div>
+
+		<div id="info-box">
+
+			<div id="country-info">
+				Страна
+			</div>
+			
+			<div id="region">
+				<span class="span-info">Регион: </span> 
+			</div>
+
+			<div id="language">
+				<span class="span-info">Язык: </span> 
+			</div>
+
+			<div id="population">
+				<span class="span-info">Население: </span> 
+			</div>
+
+			<div id="area-sq-mi">
+				<span class="span-info">Площадь(кв миль): </span> 
+			</div>
+
+		</div>
+
+		<script type="module" src="./JS/globe.js"></script>
+		<script type="text/javascript" src="vanilla-tilt.js"></script>
+		<script type="text/javascript">
+			VanillaTilt.init(document.querySelector(".weather-info"), {
+				max: 25,
+				speed: 400,
+				glare: true,
+				"max glare": 1,
+			});
+		</script>
+		
+    </body>
+</html>
