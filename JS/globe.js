@@ -1,5 +1,5 @@
-import * as THREE from '/build/three.module.js';
-import { OrbitControls } from '/jsm/controls/OrbitControls.js';
+import * as THREE from '../three/build/three.module.js';
+import { OrbitControls } from '../three/examples/jsm/controls/OrbitControls.js';
 
 // DATA IMPORT
 let data = [];
