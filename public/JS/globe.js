@@ -13,7 +13,7 @@ xhttp.onreadystatechange = function() {
         }
     }
 };
-xhttp.open("GET", "../DATA/Final_data.json", true);
+xhttp.open("GET", "./DATA/Final_data.json", true);
 xhttp.send();
 console.log(data);
 
@@ -37,11 +37,11 @@ const touch = new THREE.Vector2();
 
 //'../IMAGES/earthmap4k.jpg'
 
-let earthMap = new THREE.TextureLoader().load('../IMAGES/earthmap4k.jpg');
+let earthMap = new THREE.TextureLoader().load('./IMAGES/earthmap4k.jpg');
 
-let earthBumpMap = new THREE.TextureLoader().load('../IMAGES/earthbump4k.jpg');
+let earthBumpMap = new THREE.TextureLoader().load('./IMAGES/earthbump4k.jpg');
 
-let earthSpecMap = new THREE.TextureLoader().load('../IMAGES/earthspec4k.jpg');
+let earthSpecMap = new THREE.TextureLoader().load('./IMAGES/earthspec4k.jpg');
 
 let earthGeometry = new THREE.SphereGeometry( 10, 32, 32);
 
@@ -59,7 +59,7 @@ scene.add( earth );
 
 let earthCloudGeo = new THREE.SphereGeometry(9.88, 32, 32);
 
-let earthCloudsTexture = new THREE.TextureLoader().load('../IMAGES/earthhiresclouds4K.jpg');
+let earthCloudsTexture = new THREE.TextureLoader().load('./IMAGES/earthhiresclouds4K.jpg');
 
 let earthMaterialClouds = new THREE.MeshLambertMaterial({
     color: 0xffffff,
@@ -79,7 +79,7 @@ earth.add( earthClouds )
 
 let earthPolitGeo = new THREE.SphereGeometry(9.88, 32, 32);
 
-let earthPolitTexture = new THREE.TextureLoader().load('../IMAGES/poltgeo.png')
+let earthPolitTexture = new THREE.TextureLoader().load('./IMAGES/poltgeo.png')
 
 let earthMaterialPolit = new THREE.MeshPhongMaterial({
     map: earthPolitTexture,
@@ -98,7 +98,7 @@ earth.add( earthPolit )
 
 let earthBordersGeo = new THREE.SphereGeometry(9.88, 32, 32);
 
-let earthBordersTexture = new THREE.TextureLoader().load('../IMAGES/LABLES.png')
+let earthBordersTexture = new THREE.TextureLoader().load('./IMAGES/LABLES.png')
 
 let earthMaterialBorders = new THREE.MeshPhongMaterial({
     map: earthBordersTexture,
